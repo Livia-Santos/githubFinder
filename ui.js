@@ -31,4 +31,8 @@ class UI {
     `;
   }
 
+  clearProfile(){
+    this.profile.innerHTML = '';
+  }
+
 }

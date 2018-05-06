@@ -26,6 +26,7 @@ searcUser.addEventListener('keyup', (e) => {
     })
   } else {
     // clear profile
+    ui.clearProfile();
 
   }
 
