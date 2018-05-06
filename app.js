@@ -1,5 +1,7 @@
-// Init gihub Class
+// Initialize gihub Class
 const github = new Github;
+// Initialize UI class
+const ui = new UI;
 
 // Search input
 const searcUser = document.getElementById('searchUser');
@@ -19,11 +21,12 @@ searcUser.addEventListener('keyup', (e) => {
 
       } else {
         // show profile
+        ui.showProfile(data.profile)
       }
     })
   } else {
     // clear profile
-    
+
   }
 
 });
